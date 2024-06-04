@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+.body{
+    display: flex;
+}
+
+.star{
+    color:red;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.font{
+    font-family: "poppins,sans-serif";
+    font-weight: 600;
+    font-size: medium;
+}
+
+.font1{
+    font-size:small;
+    margin-left: 190px;
+}
+
+.font2{
+    font-family: "poppins,sans-serif";
+    font-weight: 600;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.boxsize {
+    margin-left: 10px;
+    width: 350px;
+    height: 30px;
+    border: 2px solid rgb(232,232,232);
+    border-radius: 3px;
+  }
+  .boxsize1{
+  border: 2px solid rgb(232,232,232);
+  height: 30px;
+  border-radius: 3px;
+  }
+  .mt {
+    margin-top: 7px;
+  }
+  
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+}
+  
+.rate:not(:checked) > label:before {
+    content: "★ ";
+}
+  
+.rate > input:checked ~ label {
+    color: rgb(238, 172, 130);
+}
+  
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: rgb(238, 172, 130);
+}
+  
+.text {
+    font-size: small;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+  
+.tex {
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+}
+  
+.text{
+      font-size: small;
+      font-family: "Playfair Display", serif;
+      font-weight: 500;
+}
+  
+.text1{
+      width: 100px;
+      font-size: small;
+      font-family: "Playfair Display", serif;
+      font-weight:600;
+}
+  
+.table{
+      margin-left: 10px;
+      width: 850px;
+}
+  
+.align{
+          text-align: center;
+}
+  
+.align1{
+      text-align: center ;
+}
+  
+.box{
+      border:2px solid rgb(232,232,232);
+      width:850px;
+      height: 130px;
+}
+  
+  
+  
+@media screen and (max-width: 1200px) {
+.body{
+      float: none;
+      width: 100%;
+}
+}

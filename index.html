@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form style="margin-left: 250px;">
+        <h1><b style="margin-left: 300px; background-color: antiquewhite;">Survey Form</b></h1>
+        <br>
+        <br>
+        <div class="container ">
+            <div class="content">
+                <div class="input-box">
+                    <label for="First Name"><b>First Name</b><span class="star">*</span></label>
+                    <input class="boxsize" type="text" Name="firstname" id="First Name" requried>
+                    <label for="Last Name"><b>Last Name</b><span class="star">*</span></label>
+                    <input class="boxsize" type="text" Name="Lastname" id="Last Name" requried>
+                </div>
+                <div class="input-box">
+                    <br>
+                </div>
+            </div>
+            <br>
+            <div class="input-box">
+                <label class="font2" for="Email">Email</label>
+                <span class="star">*</span>
+                <br>
+                <input class="boxsize" type="text" name="Email" id="Email" required>
+            </div>
+            <br>
+            <h1 class="font2">Your Experience <span class="star">*</span></h1>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" required />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" required />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" required />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" required />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" required />
+                <label for="star1" title="text">1 star</label>
+            </div>
+            <br>
+            <span>
+                <br>
+                <br>
+                <p class="text">Overall how would rate you experience with us?</p>
+                <br>
+                <h1 class="tex" style="font-size:small; font-weight:700;">How satisfied are you with&nbsp;<span
+                        style="color: red;">*</span></h1>
+            </span>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="text1 align1" style="font-weight: 500">Very Unsatisfied</th>
+                        <th class="text1 align1" style="font-weight: 500">Unsatisfied</th>
+                        <th class="text1 align1" style="font-weight: 500">Neutral</th>
+                        <th class="text1 align1" style="font-weight: 500">Satisfied</th>
+                        <th class="text1 align1" style="font-weight: 500">Very Satisfied</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: rgb(241,241,241)">
+
+                    <div style="padding:5px;">
+                     <td class="text1" style="padding: 10px;">Purshase</td>
+                    <td class="align" style="padding: 10px;"><lable for="Very Unsatisfied"></lable><input
+                         type="radio" name="form" id="Very Unsatisfied" value="Very Unsatisfied" requried>
+                    </td>
+                    <td class="align" style="padding: 5px;"><lable for="Unsatisfied"></lable><input
+                        type="radio" name="form" id="Unsatisfied" value="Unsatisfied" requried>
+                    </td>
+                    <td class="align" style="padding: 5px;"><lable for="Neutral"></lable><input
+                        type="radio" name="form" id="Neutral" value="Neutral" requried>
+                    </td>
+                    <td class="align" style="padding: 5px;"><lable for="Satisfied"></lable><input
+                        type="radio" name="form" id="Satisfied" value="Satisfied" requried>
+                    </td>
+                    <td class="align" style="padding: 5px;"><lable for="Very Satisfied"></lable><input
+                        type="radio" name="form" id="Very Satisfied" value="Very Satisfied" requried>
+                    </td>
+                    </div>
+                    </tr>
+                    <tr>
+                        <div>
+                            <td class="text1" style="padding: 10px;">Service</td>
+                            <td class="align" style="padding: 5px;"><label for="very Unsatisfied"></label><input 
+                            type="radio" name="form1" id="Very Unsatisfied" value="Very Unsatisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px;"><label for="Unsatisfied"></label><input 
+                            type="radio" name="form1" id="Unsatisfied" value="Unsatisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px;"><label for="Neutral"></label><input 
+                            type="radio" name="form1" id="Netural" value="Netural" required>
+                        </td>
+                        <td class="align" style="padding: 5px;"><label for="Satisfied"></label><input 
+                            type="radio" name="form1" id="Satisfied" value="Satisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px;"><label for="very Satisfied"></label><input 
+                            type="radio" name="form1" id="Very Satisfied" value="Very Satisfied" required>
+                        </td>
+                        </div>
+                    </tr>
+                    <tr style="background-color:rgb(241,241,241)">
+                    <div>
+                        <td class="text1" style="padding: 10px;">Company Overall</td>
+                        <td class="align" style="padding: 5px;"><label for="very Unsatisfied"></label><input 
+                            type="radio" name="form2" id="Very Unsatisfied" value="Very Unsatisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px;"><label for="Unsatisfied"></label><input 
+                            type="radio" name="form2" id="Unsatisfied" value="Unsatisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px;"><label for="Neutral"></label><input 
+                            type="radio" name="form2" id="Netural" value="Netural" required>
+                        </td>
+                        <td class="align" style="padding: 5px;"><label for="Satisfied"></label><input 
+                            type="radio" name="form2" id="Satisfied" value="Satisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px;"><label for="very Satisfied"></label><input 
+                            type="radio" name="form2" id="Very Satisfied" value="Very Satisfied" required>
+                        </td>
+                    </div>
+                 </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <h1 class="tex" style="font-size: small; font-weight: 700;">How likely are you to&nbsp;<span
+            style="color: red;">*</span></h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="text1 align1" style="font-weight: 500;">Very Unlikely</th>
+                        <th class="text1 align1" style="font-weight: 500;">Unlikely</th>
+                        <th class="text1 align1" style="font-weight: 500;">Neutral</th>
+                        <th class="text1 align1" style="font-weight: 500;">Likely</th>
+                        <th class="text1 align1" style="font-weight: 500;">Very Likely</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: rgb(241,241,241)">
+                        <div style="padding: 5px">
+                        <td class="text1" style="padding: 10px;"> Buy from us again</td>
+                        <td class="align" style="padding: 10px"><lable for="Very Unsatisfied"></lable><input
+                         type="radio" name="form3" id="Very Unsatisfied" value="Very Unsatisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px"><lable for="Unsatisfied"></lable><input
+                        type="radio" name="form3" id="Unsatisfied" value="Unsatisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px"><lable for="Neutral"></lable><input
+                        type="radio" name="form3" id="Netural" value="Netural" required>
+                        </td>
+                        <td class="align" style="padding: 5px"><lable for="Satisfied"></lable><input
+                        type="radio" name="form3" id="Satisfied" value="Satisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px"><lable for="Very satisfied"></lable><input
+                        type="radio" name="form3" id="Very satisfied" value="Very satisfied" required>
+                        </td>
+                        </div>
+                    </tr>
+                    <tr>
+                    <div>
+                    <td class="text1" style="padding: 10px;">Recommend our<br>product to others</td>
+                    <td class="align" style="padding: 5px"><lable for="Very Unsatisfied"></lable><input
+                     type="radio" name="form4" id="Very Unsatisfied" value="Very Unsatisfied" required>
+                    </td>
+                    <td class="align" style="padding: 5px"><lable for="Unsatisfied"></lable><input
+                    type="radio" name="form4" id="Unsatisfied" value="Unsatisfied" required>
+                    </td>
+                    <td class="align" style="padding: 5px"><lable for="Neutral"></lable><input
+                    type="radio" name="form4" id="Netural" value="Netural" required>
+                    </td>
+                    <td class="align" style="padding: 5px"><lable for="Satisfied"></lable><input
+                    type="radio" name="form4" id="Satisfied" value="Satisfied" required>
+                    </td>
+                    <td class="align" style="padding: 5px"><lable for="Very satisfied"></lable><input
+                    type="radio" name="form4" id="Very satisfied" value="Very satisfied" required>
+                    </td>
+                    </div>
+                    </tr>
+                    <tr style="background-color: rgb(241,241,241)">
+                        <div style="padding: 5px">
+                        <td class="text1" style="padding: 10px;">Recommend our<br>company to others</td>
+                        <td class="align" style="padding: 5px"><lable for="Very Unsatisfied"></lable><input
+                         type="radio" name="form5" id="Very Unsatisfied" value="Very Unsatisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px"><lable for="Unsatisfied"></lable><input
+                        type="radio" name="form5" id="Unsatisfied" value="Unsatisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px"><lable for="Neutral"></lable><input
+                        type="radio" name="form5" id="Netural" value="Netural" required>
+                        </td>
+                        <td class="align" style="padding: 5px"><lable for="Satisfied"></lable><input
+                        type="radio" name="form5" id="Satisfied" value="Satisfied" required>
+                        </td>
+                        <td class="align" style="padding: 5px"><lable for="Very satisfied"></lable><input
+                        type="radio" name="form5" id="Very satisfied" value="Very satisfied" required>
+                        </td>
+                        </div>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+
+            <h1 class="text" style="font-size: small; font-weight: bolder;margin-left: 10px;">Additional comments or
+            suggestions</h1>
+            <textarea style="margin-left: 10px; border-radius: 3px;" class="box" id="comment" name="comment"
+            rows="4"column="112" required></textarea><br>
+<br>
+<input class="text" type="Submit" value="Submit"
+style="width:70px; height: 40px; background-color: rgb(237,237,237); border:2px solid rgb(232,232,232);">
+</div>
+</form>
+</body>
+</html>
